@@ -7,7 +7,7 @@ import (
 
 	"github.com/constabulary/gb/fileutils"
 
-	"github.com/FiloSottile/gvt/gbvendor"
+	"github.com/omnistream/gvt/gbvendor"
 )
 
 var (

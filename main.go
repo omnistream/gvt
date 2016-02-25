@@ -78,10 +78,13 @@ func main() {
 const manifestfile = "manifest"
 
 func vendorDir() string {
-	wd, err := os.Getwd()
-	if err != nil {
-		log.Fatal(err)
-	}
+	/*	wd, err := os.Getwd()
+
+		if err != nil {
+			log.Fatal(err)
+		}
+	*/
+	wd := "/opt/golang/src/git.omnistream.co/techteam/golang/"
 	return filepath.Join(wd, "vendor")
 }
 

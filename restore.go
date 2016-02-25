@@ -9,7 +9,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/FiloSottile/gvt/gbvendor"
+	"github.com/omnistream/gvt/gbvendor"
 	"github.com/constabulary/gb/fileutils"
 )
 

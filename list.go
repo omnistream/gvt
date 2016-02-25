@@ -7,7 +7,7 @@ import (
 	"os"
 	"text/tabwriter"
 
-	"github.com/FiloSottile/gvt/gbvendor"
+	"github.com/omnistream/gvt/gbvendor"
 )
 
 var (
